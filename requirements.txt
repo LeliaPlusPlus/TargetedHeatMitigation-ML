@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+statsmodels
+scipy
+scikit-learn
+scikit-learn-intelex
+xgboost
+scikit-optimize
+mpl-scatter-density
+shap
+PyALE
