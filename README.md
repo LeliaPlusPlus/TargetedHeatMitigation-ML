@@ -8,6 +8,7 @@ Previous assessments on optimizing urban heat mitigation strategies, critical fo
 The data (which includes features, targets, demographics, and simualtions) is housed on Zenodo. The notebook 0-DataProcessing.ipynb aggregates and cleans the data. In 6a, we output simulations. 
 - data.csv contains the features, targets, and demoograghics
 - simulations.csv contains the simulations by census tract
+
 **NOTE:** The file data.csv contains the observed baseline, while the file simulations.csv contains the predicted baseline.
 
 ## Running the code
