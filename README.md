@@ -9,7 +9,7 @@ The data (which includes features, targets, demographics, and simulations) is ho
 - data.csv contains the features, targets, and demoograghics
 - simulations.csv contains the simulations by census tract
 
-**NOTE:** The file data.csv contains the observed baseline, while the file simulations.csv contains the predicted baseline.
+**NOTE:** The file data.csv contains the observed baseline, while the file simulations.csv contains the predicted baseline. Since the unit of analysis is the tract-level (2010 version), merging the two files can be done using the column 'Census_geoid'.
 
 ## Running the code
 1. Download the data from Zenodo and place it into the data folder.
@@ -17,3 +17,5 @@ The data (which includes features, targets, demographics, and simulations) is ho
 3. Run notebooks 1-6c.
    1. Notebooks 6a-6c require the models trained in notebook 5b.
 
+## Contact
+Correspondence to tc.chakraborty@pnnl.gov
