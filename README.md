@@ -9,7 +9,7 @@ The data (which includes features, targets, demographics, and simulations) is ho
 - data.csv contains the features, targets, and demoograghics
 - simulations.csv contains the simulations by census tract
 
-**NOTE:** The file data.csv contains the observed baseline, while the file simulations.csv contains the predicted baseline. Since the unit of analysis is the tract-level (2010 version), merging the two files can be done using the column 'Census_geoid'.
+**NOTE:** The file data.csv contains the observed baseline, while the file simulations.csv contains the predicted baseline. Since the unit of analysis is the tract-level (2010 version), merging the two files can be done using the column 'Census_geoid'. For the simulations, we exclude rows with missing features/label values. It is possible to train and infer with missing data using the XGBoost library, but note that some explanations (i.e., SHAP) do not allow inference with missing values.
 
 ## Running the code
 1. Download the data from Zenodo and place it into the data folder.
